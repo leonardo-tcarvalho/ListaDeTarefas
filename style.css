@@ -1,0 +1,98 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(10, 10, 10);
+}
+
+#principal {
+    border-radius: 15px;
+    width: 80%;
+    height: 80vh;
+    margin-top: 50px;
+}
+#principal h1 {
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#adicionarTarefa {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    justify-content: center;
+    align-items: center;
+}
+input {
+    width: 60%;
+    height: 35px;
+    border: solid 1px rgb(255, 255, 255);
+    border-radius: 1rem;
+    margin-right: 15px;
+    padding: 0.4rem;
+    outline: none;
+    background-color: black;
+    font-size: 1.5em;
+}
+input::placeholder {
+    text-align: center;
+    font-size: 1em;
+}
+#novaTarefa {
+    align-items: center;
+    padding: 0.8rem;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(67, 67, 67);
+}
+#novaTarefa:hover {
+    background-color: rgb(22, 22, 22);
+    cursor: pointer;
+}
+#conteudo {
+    display: flex;
+}
+#lista {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+}
+#lista li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-size: 2em;
+    margin: 5px;
+    padding-left: 10px;
+    border-radius: 2rem;
+    list-style: none;
+    width: 100%;
+    height: 40px;
+    text-transform: capitalize;
+}
+#lista li:hover {
+    margin-left: 20px;
+    background-color: rgb(67, 67, 67);
+}
+#apagarTarefa {
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(54, 252, 87);
+}
+#apagarTarefa:hover {
+    background-color: rgb(0, 161, 27);
+    cursor: pointer;
+}

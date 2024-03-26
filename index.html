@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO LIST</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="principal">
+        <h1>Lista De Tarefas</h1>
+        <div id="adicionarTarefa">
+            <input type="text" id="inputTarefas" placeholder="Escreva uma nova tarefa">
+            <button id="novaTarefa" onclick="novaTarefa()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/>
+                </svg>
+            </button>
+        </div>
+        <div id="conteudo">
+            <ul id="lista"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
